@@ -1,0 +1,52 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq-div{
+  width: 70vw;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.faq-head {
+  margin-top: 30px;
+}
+
+.head{
+  font-size: 20px;
+  font-weight: lighter;
+}
+.dropdown{
+  width: 12px;
+  height: 8px;
+  margin-left: 30px;
+}
+
+.line{
+  width: 70vw;
+  height: 1px;
+  margin-top: 10px;
+  background-color: gray;
+}
+
+@media screen and (max-width: 480px) {
+  .faq-div{
+    width: 80vw;
+  }
+  .line{
+    width: 80vw;
+  }
+  .head{
+    font-size: 12px;
+  }
+  .para {
+    font-size: 12px;
+  }
+  
+}
