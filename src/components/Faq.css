@@ -35,6 +35,28 @@
   background-color: gray;
 }
 
+
+.img {
+  display: flex;
+  margin: auto;
+  width: 800px;
+  height: 60vh;
+}
+
+.carousal-btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.arrow {
+  cursor: pointer;
+  margin-left: 30px;
+  margin-left: 30px;
+}
+
+
+
 @media screen and (max-width: 480px) {
   .faq-div{
     width: 80vw;
